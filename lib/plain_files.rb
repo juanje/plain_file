@@ -40,6 +40,6 @@ class PlainFile
   end
 
   def to_s
-    "#@file_path"
+    "#<PlainFile @file_path=\"#@file_path\">"
   end
 end
